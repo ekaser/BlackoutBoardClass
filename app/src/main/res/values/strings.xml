@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BlackoutBoard</string>
+    <string name="blackout">BLACKOUT</string>
+    <string name="start_game">Start Game</string>
+    <string name="player_image">Player Image</string>
+    <string name="current_player">Player 1</string>
+</resources>
