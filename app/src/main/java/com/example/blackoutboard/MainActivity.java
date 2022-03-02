@@ -165,6 +165,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void startOver() {
         setContentView(R.layout.activity_main);
+        players.removeAll(players);
         Button controllerButton = findViewById(R.id.button);
         controllerButton.setOnClickListener(view -> startGame());
     }
