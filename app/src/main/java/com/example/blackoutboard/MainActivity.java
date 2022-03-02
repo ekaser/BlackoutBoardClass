@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
     TextView textOut;
     Button rollButton;
 
-    TextView[] squareTexts = new TextView[56];
-    ArrayList<Player> players = new ArrayList<>();
+    final TextView[] squareTexts = new TextView[56];
+    final ArrayList<Player> players = new ArrayList<>();
 
     public static int numPlayers = 0;
     public static int curPlayer = 1;
@@ -211,8 +211,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void actionStep(Player player) {
-        int v = (int) player.position;
-        System.out.println(v);
+        int v = player.position;
         switch (v) {
             case 1:
                 changeText(textOut, "Starting Square, shouldn't happen");
