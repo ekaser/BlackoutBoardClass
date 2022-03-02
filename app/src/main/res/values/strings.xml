@@ -8,4 +8,10 @@
     <string name="boarddesc">board</string>
     <string name="endtext">END</string>
     <string name="roll">Roll</string>
+    <string name="start_rolling">Safe - Next Player</string>
+    <string name="dice1">Dice1</string>
+    <string name="dice2">Dice2</string>
+    <string name="roll_to_begin">Roll to Begin</string>
+    <string name="game_over">GAME OVER!</string>
+    <string name="start_over">Start Over</string>
 </resources>
