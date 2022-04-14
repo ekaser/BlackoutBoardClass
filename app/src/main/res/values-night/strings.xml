@@ -6,4 +6,8 @@
     <string name="boarddesc">board</string>
     <string name="endtext">END</string>
     <string name="roll">Roll</string>
+    <string name="easy">Easy</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
 </resources>
