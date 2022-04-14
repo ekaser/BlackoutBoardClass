@@ -61,4 +61,40 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <RadioGroup
+        android:layout_width="238dp"
+        android:layout_height="164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.318" >
+
+        <RadioButton
+            android:id="@+id/EasyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/easy"
+            android:textColor="#B0BEC5" />
+
+        <RadioButton
+            android:id="@+id/MedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/medium"
+            android:textColor="#B0BEC5" />
+
+        <RadioButton
+            android:id="@+id/HardButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/hard"
+            android:textColor="#B0BEC5" />
+    </RadioGroup>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
