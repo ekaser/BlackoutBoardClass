@@ -6,6 +6,10 @@
         <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/endpage.xml" value="0.22509057971014493" />
         <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/gamepage.xml" value="0.264" />
+        <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/gamepageHard.xml" value="0.13138686131386862" />
+        <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/gamepageMed.xml" value="0.1125" />
+        <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/gamepagehard.xml" value="0.4" />
+        <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/gamepagemed.xml" value="0.264" />
       </map>
     </option>
   </component>
