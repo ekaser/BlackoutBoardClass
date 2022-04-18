@@ -3,7 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/endpage.xml" value="0.22509057971014493" />
         <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/gamepage.xml" value="0.264" />
         <entry key="..\:/Users/evan9/AndroidStudioProjects/BlackoutBoard/app/src/main/res/layout/gamepageHard.xml" value="0.13138686131386862" />
@@ -16,6 +16,9 @@
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/app/libs" />
     <option name="OPTION_SCOPE" value="public" />
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/build/outputs/code_coverage/debugAndroidTest/connected/pixel_2_-_api_28(AVD) - 9/coverage.ec" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
