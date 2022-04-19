@@ -63,7 +63,7 @@ public class HardTest {
         ViewInteraction button = onView(
                 allOf(withId(R.id.rollButton), withText("ROLL"),
                         withParent(allOf(withId(R.id.constraintLayout),
-                                withParent(IsInstanceOf.<View>instanceOf(android.view.ViewGroup.class)))),
+                                withParent(IsInstanceOf.instanceOf(android.view.ViewGroup.class)))),
                         isDisplayed()));
         try {
             do {
@@ -94,7 +94,7 @@ public class HardTest {
             ViewInteraction button1= onView(
                     allOf(withId(R.id.rollButton), withText("ROLL"),
                             withParent(allOf(withId(R.id.constraintLayout),
-                                    withParent(IsInstanceOf.<View>instanceOf(android.view.ViewGroup.class)))),
+                                    withParent(IsInstanceOf.instanceOf(android.view.ViewGroup.class)))),
                             isDisplayed()));
             try {
                 do {
@@ -125,7 +125,7 @@ public class HardTest {
                 ViewInteraction button2 = onView(
                         allOf(withId(R.id.rollButton), withText("ROLL"),
                                 withParent(allOf(withId(R.id.constraintLayout),
-                                        withParent(IsInstanceOf.<View>instanceOf(android.view.ViewGroup.class)))),
+                                        withParent(IsInstanceOf.instanceOf(android.view.ViewGroup.class)))),
                                 isDisplayed()));
                 try {
                     do {
@@ -190,7 +190,7 @@ public class HardTest {
         ViewInteraction button2 = onView(
                 allOf(withId(R.id.rollButton), withText("ROLL"),
                         withParent(allOf(withId(R.id.constraintLayout),
-                                withParent(IsInstanceOf.<View>instanceOf(android.view.ViewGroup.class)))),
+                                withParent(IsInstanceOf.instanceOf(android.view.ViewGroup.class)))),
                         isDisplayed()));
         try {
             do {
@@ -240,7 +240,7 @@ public class HardTest {
             ViewInteraction button4 = onView(
                     allOf(withId(R.id.rollButton), withText("ROLL"),
                             withParent(allOf(withId(R.id.constraintLayout),
-                                    withParent(IsInstanceOf.<View>instanceOf(android.view.ViewGroup.class)))),
+                                    withParent(IsInstanceOf.instanceOf(android.view.ViewGroup.class)))),
                             isDisplayed()));
             try {
                 do {
